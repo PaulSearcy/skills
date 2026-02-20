@@ -1,6 +1,6 @@
 # psearcy-cursor-skills
 
-Rules and skills for International Code Council (ICC) engineering workflows in Cursor.
+Rules and skills for my personal engineering workflows in Cursor.
 
 ## What’s included
 
