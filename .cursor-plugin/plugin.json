@@ -1,0 +1,14 @@
+{
+  "name": "psearcy-cursor-skills",
+  "version": "0.1.0",
+  "description": "Rules and skills for my personal workflows.",
+  "author": "Paul Searcy",
+  "license": "MIT",
+  "keywords": [
+    "cursor",
+    "cursor-plugin",
+    "rules",
+    "skills",
+    "psearcy"
+  ]
+}

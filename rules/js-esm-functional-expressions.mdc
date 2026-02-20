@@ -1,0 +1,22 @@
+---
+description: Prefer ESM and functional expressions in JS/TS output.
+alwaysApply: true
+globs:
+  - "**/*.{js,jsx,ts,tsx,mjs,cjs}"
+---
+
+# JS/TS output style (ESM + functional expressions)
+
+When generating or editing JavaScript/TypeScript:
+
+- Use **ESM** (`import` / `export`) unless the project explicitly requires CJS.
+- Prefer **functional expressions** and **arrow functions**. Do not use the `function` keyword.
+- Prefer `const` for functions and variables; use `let` only when reassignment is required.
+- Keep functions small and composable; avoid class-based patterns unless required.
+
+Example:
+
+```js
+export const addFour = (x) => x + 4
+```
+
